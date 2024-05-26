@@ -848,6 +848,24 @@ th {
   font-size: 18px;
 }
 
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  margin-right: 10px; /* Adjust the space between the icon and the text as needed */
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; /* Adjust the text color as needed */
+  line-height: 1; /* Adjust to align text with image */
+}
 
 
 .footer {
